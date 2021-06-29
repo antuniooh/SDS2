@@ -21,7 +21,6 @@
 <p align="center">
   <img alt="Spring" src="https://img.shields.io/badge/SpringBoot-yellow?style=for-the-badge&logo=spring&logoColor=white"/>
   <img alt="Java" src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white"/>
-  <img alt="Angular" src="https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular&logoColor=white"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white"/>
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"/>
   <img alt="HTML" src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -46,6 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## 💻 About The Project
 DSDeliver project, this project taught in the week of dev superior 2.0. It consists of a web/mobile application where the user can place orders at a restaurant, as well as delivery people can cancel orders. Connecting in this way, user and delivery people
+
 There is an API developed in Spring Boot, in which requests are registered / removed / edited in the database, this API also returns the available products. In addition, the entire interface is done with the user through a React application that is consuming this Java API.
 
 ![app](https://github.com/antuniooh/dsDeliver-sds2/blob/main/images/app.gif)
@@ -57,7 +57,7 @@ There is an API developed in Spring Boot, in which requests are registered / rem
 
 On both Windows and Linux, the execution is done from an IDE of your choice, to run a Java API. The API will be running locally on port 8080.
 
-In addition to the API, it is also necessary to run the Angular application. For this you must execute:
+In addition to the API, it is also necessary to run the React application. For this you must execute:
 
 ```bash
 
