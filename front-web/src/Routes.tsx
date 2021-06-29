@@ -3,16 +3,16 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Orders from "./Orders";
 
-function Routes(){
-    return(
+function Routes() {
+    return (
         <BrowserRouter>
-        <Navbar/>
+            <Navbar />
             <Switch>
-                <Route path="/orders">
-                    <Orders/>
+                <Route exact path="/">
+                    <Home />
                 </Route>
-                <Route path="/">
-                    <Home/>
+                <Route path="/orders">
+                    <Orders />
                 </Route>
             </Switch>
         </BrowserRouter>
