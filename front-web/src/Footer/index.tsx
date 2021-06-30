@@ -11,7 +11,7 @@ function Footer () {
                 <a href="https://www.youtube.com/c/DevSuperior" target="_new">
                     <YoutubeIcon />
                 </a>
-                <a href="https://www.linkedin.com/in/santosediego/" target="_new">
+                <a href="https://www.linkedin.com/in/antuniooh/" target="_new">
                     <LinkedinIcon />
                 </a>
                 <a href="https://www.instagram.com/devsuperior.ig"  target="_new">

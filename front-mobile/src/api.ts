@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://192.168.100.5:8080';
+const API_URL = 'https://dsdelivery-antuniooh.herokuapp.com';
 
 export function fetchOrders(){
     return axios(`${API_URL}/orders`);
